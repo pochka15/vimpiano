@@ -1,0 +1,14 @@
+# Folds
+- close/open fold: z c z o
+- close/open all folds: z M z R
+
+# Visual get next
+- select the next occurrence: g n
+- then expand selection to the next: g n
+- delete next occurrence: d g n
+- now I can replace like multicursor: c g n type-smth . . . .
+
+# Change case
+- switch case: g~
+- lower upper: gu gU
+- select line > change case: V ~
